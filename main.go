@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/leonardoAlonso/godesde0/ejercicio01"
-)
+import "github.com/leonardoAlonso/godesde0/iteraciones"
 
 func main() {
 	// variables.Get_variables()
@@ -44,8 +40,19 @@ func main() {
 	// 	fmt.Printf("Esto es: %s\n", os)
 	// }
 
-	numero, mensaje := ejercicio01.EvaluateString("109")
-	fmt.Println(numero)
-	fmt.Println(mensaje)
+	// numero, mensaje := ejercicio01.EvaluateString("109")
+	// fmt.Println(numero)
+	// fmt.Println(mensaje)
+
+	/*
+		for {
+			Esto es un ciclo infinito
+		}
+
+		break -> es una forma para truncar un cliclo
+
+	*/
+
+	iteraciones.Iterar()
 
 }
