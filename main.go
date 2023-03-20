@@ -1,6 +1,8 @@
 package main
 
-import "github.com/leonardoAlonso/godesde0/iteraciones"
+import (
+	"github.com/leonardoAlonso/godesde0/ejercicios"
+)
 
 func main() {
 	// variables.Get_variables()
@@ -53,6 +55,8 @@ func main() {
 
 	*/
 
-	iteraciones.Iterar()
+	// iteraciones.Iterar()
+
+	ejercicios.CreateMultTable(10)
 
 }
